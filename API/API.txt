@@ -1,0 +1,18 @@
+**API**
+A-
+P-
+I- Interface: anything that we see->advances into these often or sometimes lead to moving into GUI(Graphical User Interface)
+REST :Representational state transfer
+URL: Universal Resource Locator (the address through which the server and the client connec)
+URI: Universal Resource Identifier
+#Stateless
+A restfull api requires the following things:
+1.Client server architecture
+2.statelessness
+3.layered System
+4.cacheability
+5.Uniform Design
+6.code on demand
+HTTP Verbs: GET-read POST-create PUT-PATCH-update DELETE-delete
+What is a MMS ? It is a message just like SMS but it also includes media
+
