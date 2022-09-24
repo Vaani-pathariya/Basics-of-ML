@@ -1,0 +1,9 @@
+"apple": "I am a red fruit"
+#lists
+-apple
+-banana
+-mango
+---
+#the above thing means that the object ends here
+zero: !!int 5
+helloo: 56

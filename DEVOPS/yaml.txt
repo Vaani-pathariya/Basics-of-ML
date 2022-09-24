@@ -1,0 +1,28 @@
+it is data format used to exchange data
+similar to xml and json
+int yaml we can only store data
+DATA Serialisation
+obj to file :Serialisation
+and file to obj :deSerialisation
+parsing is easy:parsing means reading the data
+it has key value pairs
+yaml is case sensitive 
+indentation is important
+----------------------------------
+DOCKER
+=>Docker makes use of containers
+their is need of only one operating system 
+however virtual machine needs different operating systems
+wsl
+1)docker runtime:allows us to start and stop containers (runc and containerd)
+2)docker engine
+3)orchestration
+dockerfile->image->container
+45:25
+----------------------------------
+Kubernetes
+node and pod
+service and ingress
+configmap and secret
+volumes
+
