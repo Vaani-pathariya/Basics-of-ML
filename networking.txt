@@ -1,0 +1,73 @@
+**COMPUTER NETWORKING AND ARCHITECTURE**
+internet ->collection of newtorks
+rules that are set are called protocols
+www->project that stored the documents :hosted by web servers
+but it could not be used to search for things 
+the internet society dicides a set of rules for different applications to connect with each other
+request and response 
+protocols are the rules:
+TCP:Transmission control protocol this assists the movement of info and data from one place to another
+UDP: this is the protocol where not all the info is required to be sent such as video conferencing(user datagram protocol)
+HTTP: HYPER TEXT TRANSFER PROTOCOL(format of the data that is sent )
+The different calls are the packets of data 
+Every device that is taking part in internet has an IP addresss
+format : X.X.X.X
+each X has a range of 0 to 255
+how to check your ip address: 
+command: curl if config.me -s(type this in the bash)
+DHCP:Dynamic host configuration protocol
+the modem at our homes has a global ip address ,all the devices connected to this modem has the same ip address 
+the modem provides each connected device a local ip address
+NAT=>newtork access translator
+to decide which application requested the address ,it is found through port
+PORTS are 16 bit numbers
+total port nos possible =2^16
+http : port 80
+mongodb : port : 27017(my be wrong)
+0-1023 are reserved ports
+1024 -49152 :reserved for applications
+1mbps=one mega bits per second
+LAN:Local area newtork
+WAN: wide area network(countries)
+1.SONET: it can cover larger distances since it is made up of optical fibre
+2.frame relay: it is a way to connet the LAN to WAN
+MAN,
+modem: convert digital signal to analog signal
+router: routes the packet on the basis of ip address
+TOPOLOGIES:
+1.Bus: 
+o--o-----o-------o-------
+      |         |  
+2.Ring 
+3.Star
+4.tree: bus+Star
+5.Mesh :every single ccomp is connected to each other ccomp in the newtork
+----------------------------
+STRUCTURE OF NETWORKING
+application layer: the first layer that is used to interact
+open systems interconnection model : OSI model
+it has layers : (7)
+1.application layer:
+implemented int : software 
+2.presentation layer: converts numbs and all to machine understandable format EBCDIC(called translation :encoding ,encription) it also provides abstraction ,date is also compressed ,ssl protocol is used
+3.sesion : authentication ,session layer assumes that the layers below it will do their work
+4. Transport: transports the data :3 ways: segmentation ,flow control:the amount of data being transported ,check sum tcp,udp
+5. newtork : transportation in the laptops in different newtorks funciton of network layer : logical addressing
+6.data link : it allows to communicate with the computers #mac address
+7.Physical :this is the hardware ,it works with wires 
+------------------------------
+Another model: TCP/IP model(more into practice )
+the internet protocol suit
+1. application layer
+2.Transport layer
+3.network layer
+4.data link layer
+5.Physical layer
+---------------------------
+application layer:
+users interact with this,it lies on the devices ,protocols , client-server ARCHITECTURE
+p2p ARCHITECTURE : the servers are connected to each other
+PROTOCOLS:
+1.HTTP
+2.DHCPSMTP 
+--------------------LEFT AT 1:45:35---------------------
