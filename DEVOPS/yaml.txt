@@ -21,8 +21,32 @@ dockerfile->image->container
 45:25
 ----------------------------------
 Kubernetes
-node and pod
-service and ingress
-configmap and secret
-volumes
+=>immutability
+orchetrators : are helping in deploying and managing containers dynamically
+1.run it on your own cloud
+1)k8s cluster :control plane +nodes
+nodes is a server 
+and the control plane is the one that manages the nodes
+contol plane was earlier named as master node 
+cube cutter(kube ctl) is the one where we interact with the control plane 
+declarative way is better as it envolves using files to interact instead of writing comands again and again
+worker node ->container run time ->pod ->container
+pod is a scheduling unit 
+-----------------
+steps to run any microservice in Kubernetes
+1)create microservice
+2)containerize it 
+3)put container in pods
+4)deploy the pods to controllers
+CONTROL PLANE 
+Control manager : DS,cs 
+scheduler : it schedules things
+APIserver
+--------------------
+Architecture of worker node : 
+1)kube proxy:required for networking :provides ip address to nodes 
+2)kubelet :  required for connecting to the api server 
+3) container runtime 
+---------------------
+k8s DNS =>core DNS
 
