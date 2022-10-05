@@ -1,0 +1,7 @@
+Waterfall method
+1)Requirements analysis
+2)Design
+3)Development
+4)Testing
+5)Maintenance
+Agitle model:feedback loop
